@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSérénité - Votre site web sans risque</title>
+    <meta name="description" content="Création de sites internet sans acompte. Je crée un aperçu, vous validez, vous payez. Zéro risque.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="web_serenite.png">
+    
+    <!-- Polices modernes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Lien vers le fichier CSS (dans le dossier css) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header id="navbar">
+    <div class="logo">WebSérénité<span class="dot">.</span></div>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#process">Méthode</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="cta-nav">Démarrer (Gratuit)</a>
+    </nav>
+</header>
+
+<!-- Section Héro -->
+<section id="accueil" class="hero">
+    <div class="hero-content fade-in">
+        <!--<span class="badge">🚀 Offre Spéciale : Aperçu Gratuit</span> -->
+        <h1>Votre site web pro.<br>Payez <span class="highlight">uniquement</span> si ça vous plaît.</h1>
+        <p>
+            Fini les devis signés à l'aveugle. Je conçois votre site vitrine complet.
+            Je vous envoie un lien de démonstration.
+            <strong>Convaincu ?</strong> On met en ligne. 
+            <strong>Sinon ?</strong> Vous ne me devez rien.
+        </p>
+        
+        <div class="trust-badges">
+            <div class="badge-item"><i class="fa-solid fa-wallet"></i> 0€ d'acompte</div>
+            <div class="badge-item"><i class="fa-solid fa-check-circle"></i> Satisfait ou rien</div>
+        </div>
+
+        <div class="hero-buttons">
+            <button onclick="document.getElementById('contact').scrollIntoView()" class="btn-primary">
+                Demander mon aperçu <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <a href="#process" class="btn-text">Comment ça marche ?</a>
+        </div>
+    </div>
+    
+    <!-- Visuel abstrait animé -->
+    <div class="hero-visual fade-in">
+        <div class="abstract-card float-animation">
+            <div class="browser-bar">
+                <div class="dots">
+                    <span class="dot-browser red"></span>
+                    <span class="dot-browser yellow"></span>
+                    <span class="dot-browser green"></span>
+                </div>
+                <div class="url-bar">www.votre-entreprise.fr</div>
+            </div>
+            <div class="card-body">
+                <div class="skeleton-header"></div>
+                <div class="skeleton-hero">
+                    <div class="skeleton-img"></div>
+                    <div class="skeleton-lines">
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                </div>
+                <div class="stamp-container">
+                    <div class="stamp">100% VALIDÉ</div>
+                </div>
+            </div>
+        </div>
+        <!-- Éléments décoratifs arrière plan -->
+        <div class="circle-bg"></div>
+    </div>
+</section>
+
+<!-- Section Processus -->
+<section id="process" class="section-padding">
+    <div class="container">
+        <h2 class="section-title">La méthode "Zéro Risque"</h2>
+        <p class="section-subtitle">Pourquoi payer pour quelque chose que vous n'avez pas encore vu ?</p>
+        
+        <div class="steps-grid">
+            <div class="step-card fade-in">
+                <div class="step-icon"><i class="fa-regular fa-comments"></i></div>
+                <h3>1. Échange</h3>
+                <p>On discute de votre activité et de vos goûts par email ou téléphone. On valide le prix global <b>avant</b> de démarrer.</p>
+            </div>
+            
+            <div class="step-card fade-in">
+                <div class="step-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>2. Création (Gratuite)</h3>
+                <p>Je crée le site de mon côté. Sous quelques jours, vous recevez un <strong>lien privé</strong> pour tester le site vous-même.</p>
+            </div>
+            
+            <div class="step-card fade-in highlight-card">
+                <div class="step-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>3. Décision</h3>
+                <p>
+                    <strong>Le site vous plaît ?</strong> Vous réglez la facture et le site vous appartient.<br>
+                    <strong>Il ne vous plaît pas ?</strong> On en reste là. Zéro frais.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Services (Images modifiées via CSS) -->
+<section id="services" class="section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title">Idéal pour...</h2>
+        
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <!-- Image : Artisans BTP -->
+                <div class="card-img artisan"></div>
+                <h3>Artisans & BTP</h3>
+                <p>Montrez vos réalisations (chantiers, rénovations) pour rassurer vos futurs clients.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <!-- Image : Commerce -->
+                <div class="card-img commerce"></div>
+                <h3>Commerces & Boutiques</h3>
+                <p>Horaires, localisation, menu ou catalogue. Soyez visible sur Google Maps.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <!-- Image : Professions Libérales -->
+                <div class="card-img liberal"></div>
+                <h3>Professions Libérales</h3>
+                <p>Cabinet, coaching, consultant. Une présentation sobre et rassurante de votre expertise.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section-padding">
+    <div class="container">
+        <h2 class="section-title">Questions fréquentes</h2>
+        <div class="faq-container fade-in">
+            <details class="faq-item">
+                <summary>Combien ça coûte ? <i class="fa-solid fa-chevron-down"></i></summary>
+                <p>Le prix dépend de la taille du site (une page ou plusieurs). Cependant, le prix est fixé <strong>avant</strong> que je commence à travailler. Pas de surprise.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Suis-je engagé si je demande un aperçu ? <i class="fa-solid fa-chevron-down"></i></summary>
+                <p>Non, absolument pas. C'est le principe de WebSérénité. Si l'aperçu ne vous convient pas, vous êtes libre de partir sans payer.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Qui paie l'hébergement et le nom de domaine ? <i class="fa-solid fa-chevron-down"></i></summary>
+                <p>Je vous conseille pour l'achat (environ 10€/an chez un hébergeur français). Le site vous appartient à 100%.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="section-padding bg-dark">
+    <div class="contact-wrapper fade-in">
+        <div class="contact-info">
+            <h2>Prêt à voir votre futur site ?</h2>
+            <p>Remplissez ce formulaire. Je vous recontacte sous 24h pour valider le projet. Ensuite, je me mets au travail gratuitement.</p>
+            <div class="info-block">
+                <i class="fa-solid fa-envelope"></i> Web.Sérénité@gmail.com
+            </div>
+            <div class="info-block">
+                <i class="fa-solid fa-shield-halved"></i> Données confidentielles
+            </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label>Votre Nom</label>
+                <input type="text" id="nom" placeholder="Ex: Jean Dupont" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Votre Email</label>
+                <input type="email" id="email" placeholder="jean@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Type d'activité</label>
+                <input type="text" id="activite" placeholder="Ex: Plombier, Restaurant..." required>
+            </div>
+            
+            <div class="form-group">
+                <label>Votre projet en quelques mots</label>
+                <textarea id="message" rows="4" placeholder="Je voudrais un site simple pour présenter mes services..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">
+                <span class="btn-text-content">Envoyer ma demande (Sans engagement)</span>
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="form-note">Cela ouvrira votre logiciel de messagerie pour envoyer la demande.</p>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-content">
+        <p>© 2025 WebSérénité</p>
+        <a href="#" id="openModal">Mentions Légales</a>
+    </div>
+</footer>
+
+<!-- Modale Mentions Légales -->
+<div id="legalModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3>Mentions Légales</h3>
+        <p><strong>Éditeur du site :</strong><br>Kays Benayadi<br>Email : kays.benayadi@gmail.com</p>
+        <p><strong>Hébergement :</strong><br>Ce site est hébergé par GitHub Pages.</p>
+        <p><strong>Propriété intellectuelle :</strong><br>Toute reproduction du site est interdite sans autorisation.</p>
+    </div>
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
